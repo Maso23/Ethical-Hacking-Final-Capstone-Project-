@@ -1,0 +1,49 @@
+# Challenge 3: Exploiting Open SMB Shares
+
+## 🎯 Objective
+To discover unsecured SMB shares on a local network and determine whether sensitive files can be accessed anonymously.
+
+---
+
+## 🛠️ Tools Used
+- Kali Linux
+- Nmap
+- enum4linux
+- smbclient
+
+---
+
+## 🧪 Methodology
+1. Scanned the local network to identify hosts running SMB services.
+2. Enumerated SMB shares available on the target system.
+3. Identified shares accessible without authentication.
+4. Accessed shared directories and located sensitive files.
+5. Retrieved and reviewed the challenge flag.
+
+---
+
+## 📸 Screenshots
+![SMB Scan](screenshots/smb_scan.png)
+![SMB Share Enumeration](screenshots/smb_shares.png)
+![File Access](screenshots/file_access.png)
+
+---
+
+## 🧠 Key Learnings
+- How SMB services are discovered and enumerated
+- Risks of anonymous SMB access
+- Importance of secure file-sharing configurations
+
+---
+
+## 🔐 Remediation Recommendations
+- Disable anonymous SMB access
+- Enforce authentication and authorization
+- Disable SMBv1
+- Implement firewall rules and network segmentation
+- Enable SMB signing and secure authentication
+
+---
+
+## ⚖️ Ethical Notice
+This challenge was completed in a controlled educational environment.
