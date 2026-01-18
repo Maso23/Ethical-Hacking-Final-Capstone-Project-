@@ -21,13 +21,6 @@ To identify web server misconfigurations that allow directory listing and expose
 
 ---
 
-## 📸 Screenshots
-![Nikto Scan](screenshots/nikto_scan.png)
-![Directory Listing](screenshots/directory_listing.png)
-![Flag File](screenshots/flag_file.png)
-
----
-
 ## 🧠 Key Learnings
 - Risks of web server misconfiguration
 - Importance of secure default settings
