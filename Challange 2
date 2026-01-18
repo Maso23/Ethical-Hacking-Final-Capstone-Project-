@@ -1,0 +1,47 @@
+# Challenge 2: Web Server Vulnerabilities & Directory Listing
+
+## 🎯 Objective
+To identify web server misconfigurations that allow directory listing and expose sensitive files through a web browser.
+
+---
+
+## 🛠️ Tools Used
+- Kali Linux
+- Nikto
+- Web browser
+
+---
+
+## 🧪 Methodology
+1. Performed reconnaissance on the target web server.
+2. Identified directories with enabled directory indexing.
+3. Accessed exposed directories using URL manipulation.
+4. Located the file containing the challenge code.
+5. Documented findings and remediation strategies.
+
+---
+
+## 📸 Screenshots
+![Nikto Scan](screenshots/nikto_scan.png)
+![Directory Listing](screenshots/directory_listing.png)
+![Flag File](screenshots/flag_file.png)
+
+---
+
+## 🧠 Key Learnings
+- Risks of web server misconfiguration
+- Importance of secure default settings
+- How attackers exploit directory listing
+
+---
+
+## 🔐 Remediation Recommendations
+- Disable directory indexing
+- Add default index files (index.html)
+- Restrict directory permissions
+- Remove sensitive files from the web root
+
+---
+
+## ⚖️ Ethical Notice
+All activities were performed in a safe and authorized lab environment.
