@@ -23,13 +23,6 @@ The objective of this challenge was to exploit a SQL Injection vulnerability in 
 
 ---
 
-![Database Enumeration]
-![Credential Extraction](screenshots/credentials.png)
-![Password Cracking](screenshots/password_crack.png)
-![Flag File Access](screenshots/flag_file.png)
-
----
-
 ## 🧠 Key Learnings
 - How SQL injection vulnerabilities are exploited
 - Importance of secure input handling
