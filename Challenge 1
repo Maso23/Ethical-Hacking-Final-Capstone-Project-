@@ -1,0 +1,51 @@
+# Challenge 1: SQL Injection Exploitation
+
+## 🎯 Objective
+The objective of this challenge was to exploit a SQL Injection vulnerability in a web application to retrieve user credentials, crack a password hash, and access a protected file on the target system.
+
+---
+
+## 🛠️ Tools Used
+- Kali Linux
+- DVWA (Damn Vulnerable Web Application)
+- Web browser
+- Password hash cracking tool
+
+---
+
+## 🧪 Methodology
+1. Identified vulnerable input fields within the web application.
+2. Enumerated database tables and columns using SQL injection payloads.
+3. Retrieved the username and password hash of the target user.
+4. Cracked the password hash.
+5. Logged into the target system using the compromised credentials.
+6. Located and opened the file containing the challenge flag.
+
+---
+
+![Database Enumeration]
+![Credential Extraction](screenshots/credentials.png)
+![Password Cracking](screenshots/password_crack.png)
+![Flag File Access](screenshots/flag_file.png)
+
+---
+
+## 🧠 Key Learnings
+- How SQL injection vulnerabilities are exploited
+- Importance of secure input handling
+- Risks of weak password storage
+- Value of layered application security
+
+---
+
+## 🔐 Remediation Recommendations
+- Use parameterized queries and prepared statements
+- Implement strict input validation
+- Apply the principle of least privilege
+- Configure generic error handling
+- Deploy a Web Application Firewall (WAF)
+
+---
+
+## ⚖️ Ethical Notice
+This challenge was completed in a controlled lab environment strictly for educational purposes.
