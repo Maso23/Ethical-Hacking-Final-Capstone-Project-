@@ -19,12 +19,6 @@ To analyze captured network traffic in a PCAP file to identify sensitive informa
 4. Accessed exposed directories via a web browser.
 5. Located and reviewed sensitive data.
 
----
-
-## 📸 Screenshots
-![PCAP Analysis](screenshots/wireshark_analysis.png)
-![HTTP Traffic](screenshots/http_traffic.png)
-![Exposed File](screenshots/exposed_file.png)
 
 ---
 
