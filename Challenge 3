@@ -20,12 +20,6 @@ To discover unsecured SMB shares on a local network and determine whether sensit
 4. Accessed shared directories and located sensitive files.
 5. Retrieved and reviewed the challenge flag.
 
----
-
-## 📸 Screenshots
-![SMB Scan](screenshots/smb_scan.png)
-![SMB Share Enumeration](screenshots/smb_shares.png)
-![File Access](screenshots/file_access.png)
 
 ---
 
