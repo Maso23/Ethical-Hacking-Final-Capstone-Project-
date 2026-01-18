@@ -1,0 +1,47 @@
+# Challenge 4: Network Traffic (PCAP) Analysis
+
+## 🎯 Objective
+To analyze captured network traffic in a PCAP file to identify sensitive information transmitted in clear text.
+
+---
+
+## 🛠️ Tools Used
+- Kali Linux
+- Wireshark
+- Web browser
+
+---
+
+## 🧪 Methodology
+1. Opened and analyzed the PCAP file using Wireshark.
+2. Identified the target IP address from captured traffic.
+3. Extracted URLs and file paths from HTTP packets.
+4. Accessed exposed directories via a web browser.
+5. Located and reviewed sensitive data.
+
+---
+
+## 📸 Screenshots
+![PCAP Analysis](screenshots/wireshark_analysis.png)
+![HTTP Traffic](screenshots/http_traffic.png)
+![Exposed File](screenshots/exposed_file.png)
+
+---
+
+## 🧠 Key Learnings
+- How network traffic analysis reveals sensitive information
+- Risks of transmitting data in clear text
+- Importance of encryption in modern networks
+
+---
+
+## 🔐 Remediation Recommendations
+- Encrypt data in transit (HTTPS, TLS)
+- Encrypt sensitive data at rest
+- Implement strict access controls (ACLs / RBAC)
+- Monitor network traffic for anomalies
+
+---
+
+## ⚖️ Ethical Notice
+This analysis was conducted for learning purposes in an authorized lab environment.
